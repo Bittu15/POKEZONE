@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="page1.js"></script> -->
+    <!-- <script src="page2.js"></script> -->
+    <!-- <script src="page3.js"></script> -->
+    <script src="page.4.js"></script>
+    <style>
+        body {
+            text-align: center;
+            background-color: black;
+        }
+
+        div {
+            width: 800px;
+            margin: auto;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 50px;
+            background-color: rgb(240, 113, 113);
+            position: relative;
+
+
+
+        }
+
+        .ability {
+            color: white;
+            border: 2px solid white;
+            width: 350px;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 300px;
+            height: 28px;
+            border-radius: 10px;
+            margin: 10px;
+
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            background-color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+            margin: auto;
+        }
+
+        .title {
+            color: white;
+            font-size: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h1 class="title">POKEZONE</h1>
+        <input type="text" id="pokemonNameId" placeholder="Enter Pokemon"><br>
+        <button onclick="getData()">Get Pokemon</button> <br>
+        <div class="image">
+            <img src="" alt="Pokemon Image" id="image" style="display: none;">
+        </div><br>
+        <button onclick="frontLook()">Front Look</button>
+        <button onclick="">Shiny Look</button>
+        <Button onclick="">Backlook</Button>
+        <h1 class="ability" id="ability"></h1><br>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
